@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  smartload:
+    build: .
+    container_name: smartload-app
+    ports:
+      - "8080:8080"
