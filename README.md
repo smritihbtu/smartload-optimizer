@@ -71,25 +71,11 @@ POST /api/v1/load-optimizer/optimize
 }
 -------
 
-##  Features
-
-* Bitmask-based optimization (2^n subsets)
-* Handles up to 22 orders efficiently
-* Ensures:
-
-  * Weight & volume limits
-  * Same route
-  * Same hazmat type
-
----
-
 ## Health Check
 
 ```bash
 curl http://localhost:8080/actuator/health
 ```
-
----
 
 ##  Docker
 
