@@ -1,25 +1,26 @@
 # SmartLoad Optimization API
 
 ## Overview
-This service finds the most profitable combination of shipment orders that a truck can carry while respecting:
-* Weight constraints
-* Volume constraints
-* Route compatibility
-* Hazmat compatibility
+This service selects the most profitable combination of shipment orders that a truck can carry while respecting:
+- Weight constraints
+- Volume constraints
+- Route compatibility
+- Hazmat compatibility
 
-## Using Tech Stack
-* Java 17
-* Spring Boot
-* Docker
-* Maven
+## Tech Stack
+- Java 17
+- Spring Boot
+- Docker
+- Maven
+
+---
 
 ## How to Run
+
 ```bash
 git clone https://github.com/smritihbtu/smartload-optimizer.git
 cd smartload-optimizer
 docker compose up --build
-```
-
 ## Service will be available at:
 ```
 http://localhost:8080
